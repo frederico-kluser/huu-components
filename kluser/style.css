@@ -1,9 +1,37 @@
-/* Style always based on the tags name */
+/*
+* o que fazer com as fontes ?
+*/
+
+
 home {
 	height: 100vh;
 	left: 0;
 	position: relative;
 	top: 0;
 	width: 100vw;
-	background-color: red;
+	background-color: white;
+}
+
+balance {
+	background-color: #4745A3;
+	top: 0;
+	left: 0px;
+	right: 0px;
+	width: 315px;
+	height: 190px;
+	border-radius: 25px;
+}
+
+total-texto {
+	position: absolute;
+	height: 17px;
+	left: 6.35%;
+	right: 72.06%;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.00039375px;
+	color: #FFFFFF;
 }
