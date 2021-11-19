@@ -1,0 +1,12 @@
+{
+	"folders": {
+		"components": "components",
+		"pages": "pages",
+		"source": "src"
+	},
+	"features": {
+		"jest": false,
+		"storybook": false,
+		"framework": "react"
+	}
+}

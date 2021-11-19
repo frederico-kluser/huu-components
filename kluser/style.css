@@ -1,0 +1,9 @@
+/* Style always based on the tags name */
+home {
+	height: 100vh;
+	left: 0;
+	position: relative;
+	top: 0;
+	width: 100vw;
+	background-color: red;
+}
