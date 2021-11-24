@@ -1,0 +1,66 @@
+<style>
+controlador {
+	height: 75px;
+	width: 315px;
+}
+
+titulo, tempo {
+	font-family: SF Pro Display;
+	font-size: 16px;
+	letter-spacing: 0.00045px;
+}
+
+titulo {
+	position: absolute;
+	color: #111662;
+}
+
+barravertical {
+	position: absolute;
+	height: 18px;
+	width: 1px;
+	left: 63px;
+	top: 30px;
+	background: #D5D6E0;
+}
+
+tempo1, tempo2 {
+	position: absolute;
+	top: 28px;
+	color: #A4A4B4;
+}
+
+tempo2 {
+	left: 78px;
+	float: right;
+}
+
+barrahorizontal {
+	width: 315px;
+	background: #E4E5EF;
+	position: absolute;
+}
+
+barrahorizontal, tempo {
+	height: 6px;
+	top: 69px;
+	border-radius: 3px;
+}
+
+tempo {
+	width: 173px;
+	background: #E12D39;
+}
+</style>
+
+<controlador>
+  <titulo>Dose</titulo>
+  <bloco>
+    <tempo1>3 times</tempo1>
+    <barravertical></barravertical>
+    <tempo2>8am, 13pm & 10pm</tempo2>
+  </bloco>
+  <barrahorizontal>
+    <tempo></tempo>
+  </barrahorizontal>
+</controlador>

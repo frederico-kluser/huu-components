@@ -1,0 +1,58 @@
+<style>
+  propriedade {
+	height: 55px;
+	display: grid;
+	grid-template-columns: repeat(3, 95px);
+	grid-column-gap:  20px;
+}
+
+bloco {
+	position: relative;
+	background: #FFFFFF;
+	border: 1px solid #ECEDF2;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+circulo1, circulo2, circulo3 {
+position: absolute;
+left: 14px;
+top: 21px;
+height: 13px;
+width: 13px;
+border-radius: 50px;
+background: #FFFFFF;
+border: 1px solid #ECEDF2;
+box-sizing: border-box;
+}
+
+circulo1 {
+	background: #003ED8;
+}
+
+titulo {
+	position: absolute;
+	left: 35px;
+	top: 19px;
+	font-family: SF Pro Display;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.00039375px;
+	color: #838383;
+}
+</style>
+
+<propriedade>
+  <bloco>
+    <circulo1></circulo1>
+    <titulo>Share</titulo>
+  </bloco>
+  <bloco>
+    <circulo2></circulo2>
+    <titulo>Room</titulo>
+  </bloco>
+  <bloco>
+    <circulo3></circulo3>
+    <titulo>House</titulo>
+  </bloco>
+</propriedade>
