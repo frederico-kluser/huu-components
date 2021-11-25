@@ -1,0 +1,10 @@
+Abrir o console:
+Control + J
+
+Digitar "npm run start", para iniciar o react
+
+Clicar em split terminal
+
+Digitar "npm run kluser" para iniciar o kluser
+e selecionar com as setar a opcao "Live Preview"
+e apertar enter
