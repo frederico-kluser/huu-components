@@ -1,0 +1,193 @@
+<style>
+  h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+#Titulo, #BlocoInicial, #UltimoBloco, #BarraVerticalNumero, #BlocoBarraVertical  {
+	position: absolute;
+}
+
+#BarraVerde1, #BarraVerde2, #BarraVerde3, #BarraVerde4, #BarraVerde5, #BarraVerde6 {
+	bottom: 0px;
+	position: absolute;
+	background: #00D1FF;
+	border-radius: 4.5px;
+	width: 9px;
+}
+
+#Barra1, #Barra2, #Barra3, #Barra4, #Barra5, #Barra6 {
+	position: absolute;
+	width: 9px;
+	bottom: 0px;
+	border-radius: 4.5px;
+	background: #3718D1;
+	width: 9px;
+}
+
+#Titulo, #Descricao, #Descricao2, #Descricao3, #Numero {
+	font-family: SF Pro Display;
+	font-weight: 500;
+}
+
+#Grupo, #Grupo2, #Grupo3 {
+	border: 1px solid #D8DAE4;
+	border-radius: 15px;
+}
+
+#Grupo {
+	background: #3718D1;
+}
+
+#Descricao, #Descricao2, #Descricao3 {
+	position: relative;
+	top: 8px;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 0.00107402px;
+}
+
+#Descricao2, #Descricao3 {
+	color:  #8484A5;
+}
+
+#Descricao {
+	color: #FFFFFF;
+}
+
+#TotalBalance {
+	height: 341px;
+	width: 326px;
+}
+
+#Titulo {
+	font-size: 20px;
+	letter-spacing: 0.00179004px;
+	color: #000000;
+}
+
+#BlocoInicial {
+	top: 57px;
+	display: grid; 
+  grid-template-columns: repeat(3, 53px);
+  grid-column-gap: 10px;
+	height: 30px;
+	width: 179px;
+}
+
+#UltimoBloco {
+	height: 230px;
+	width: 326px;
+	top: 111px;
+}
+
+#BarraVerticalNumero {
+	display: grid; 
+  grid-template-rows: repeat(6, 17px);
+  grid-row-gap: 22px;
+	height: 211px;
+	width: 36px;
+	bottom: 0px;
+}
+
+#Numero {
+	position: relative;
+	font-size: 14px;
+	text-align: right;
+	letter-spacing: 0.00154219px;
+	color: #898DA2;
+}
+
+#BlocoBarraVertical {
+	height: 227px;
+	width: 254px;
+	left: 72px;
+	bottom: 0px;
+}
+
+#Barra1 {
+	height: 158px;
+	left: 0px;
+}
+
+#Barra2 {
+	height: 191px;
+	left: 49px;
+}
+
+#Barra3 {
+	height: 227px;
+	left: 98px;
+}
+
+#Barra4 {
+	height: 158px;
+	left: 147px;
+}
+
+#Barra5 {
+	height: 195px;
+	left: 196px;
+}
+
+#Barra6 {
+	height: 120px;
+	left: 245px;
+}
+
+#BarraVerde1 {
+	height: 76px;
+}
+
+#BarraVerde2 {
+	height: 99px;
+}
+
+#BarraVerde3 {
+	height: 141px;
+}
+
+#BarraVerde4 {
+	height: 102px;
+}
+
+#BarraVerde5 {
+	height: 80px;
+}
+
+#BarraVerde6 {
+	height: 38px;
+}
+</style>
+
+<div id="TotalBalance">
+  <h1 id="Titulo">Total Balance</h1>
+  <div id="BlocoInicial">
+    <div id="Grupo">
+      <p id="Descricao">Today</p>
+    </div>
+    <div id="Grupo2">
+      <p id="Descricao2">Week</p>
+    </div>
+    <div id="Grupo3">
+      <p id="Descricao3">Month</p>
+    </div>
+  </div>
+  <div id="UltimoBloco">
+    <div id="BarraVerticalNumero">
+      <p id="Numero">5500</p>
+      <p id="Numero">4500</p>
+      <p id="Numero">3500</p>
+      <p id="Numero">2500</p>
+      <p id="Numero">1500</p>
+      <p id="Numero">0</p>
+    </div>
+    <div id="BlocoBarraVertical">
+      <div id="Barra1"><div id="BarraVerde1"></div></div>
+      <div id="Barra2"><div id="BarraVerde2"></div></div>
+      <div id="Barra3"><div id="BarraVerde3"></div></div>
+      <div id="Barra4"><div id="BarraVerde4"></div></div>
+      <div id="Barra5"><div id="BarraVerde5"></div></div>
+      <div id="Barra6"><div id="BarraVerde6"></div></div>
+    </div>
+  </div>
+</div>

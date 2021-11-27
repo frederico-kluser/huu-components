@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+const Container = styled.div`
 	background-color: white;
 	height: 100vh;
 	left: 0;
@@ -8,3 +8,5 @@ export const Container = styled.div`
 	top: 0;
 	width: 100vw;
 `;
+
+export default Container;

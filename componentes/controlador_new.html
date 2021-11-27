@@ -1,0 +1,70 @@
+<style>
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+#Controlador {
+	height: 75px;
+	width: 315px;
+}
+
+#Titulo, #Tempo1, #Tempo2  {
+	font-family: SF Pro Display;
+	font-size: 16px;
+	letter-spacing: 0.00045px;
+	position: absolute;
+}
+
+#Tempo1, #Tempo2 {
+	top: 28px;
+	color: #A4A4B4;
+}
+
+#Tempo2 {
+	left: 78px;
+	float: right;
+}
+
+#Titulo {
+	color: #111662;
+}
+
+#LinhaVermelha {
+	width: 173px;
+	background: #E12D39;
+}
+
+#BarraHorizontal, #LinhaVermelha {
+	height: 6px;
+	top: 69px;
+	border-radius: 3px;
+}
+
+#BarraHorizontal {
+	width: 315px;
+	background: #E4E5EF;
+	position: absolute;
+}
+
+#BarraVertical {
+	position: absolute;
+	height: 18px;
+	width: 1px;
+	left: 63px;
+	top: 30px;
+	background: #D5D6E0;
+}
+</style>
+
+<div id="Controlador">
+  <h1 id="Titulo">Dose</h1>
+  <div id="Bloco">
+    <p id="Tempo1">3 times</p>
+    <div id="BarraVertical"></div>
+    <p id="Tempo2">8am, 13pm & 10pm</p>
+  </div>
+  <div id="BarraHorizontal">
+    <div id="LinhaVermelha"></div>
+  </div>
+</div>

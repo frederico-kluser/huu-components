@@ -1,0 +1,63 @@
+<style>
+  h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+#BlocoDeNumeros {
+	display: grid; 
+  grid-template-columns: repeat(5, 55px);
+  grid-column-gap: 19px;
+	height: 55px;
+	width: 351px;
+}
+
+#Bloco1, #Bloco2, #Bloco3, #Bloco4, #Bloco5 {
+	border: 1px solid #ECEDF2;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+#Bloco2 {
+	background: #0043D0;
+}
+
+#Numero1, #Numero3, #Numero4, #Numero5 {
+	position: relative;
+	height: 21px;
+	top: 17px;
+	font-family: SF Pro Display;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.00050625px;
+  color: #838383;
+}
+
+#Numero2 {
+	color: #FFFFFF;
+	position: relative;
+	height: 21px;
+	top: 17px;
+	font-family: SF Pro Display;
+	font-size: 18px;
+	text-align: center;
+}
+
+</style>
+
+<div id="BlocoDeNumeros">
+  <div id="Bloco1">
+    <p id="Numero1">1</p>
+  </div>
+  <div id="Bloco2">
+    <p id="Numero2">2</p>
+  </div>
+  <div id="Bloco3">
+    <p id="Numero3">3</p>
+  </div>
+  <div id="Bloco4">
+    <p id="Numero4">4</p>
+  </div>
+  <div id="Bloco5">
+    <p id="Numero5">5</p>
+  </div>
+</div>

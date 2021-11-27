@@ -1,6 +1,6 @@
 
 
-import { Container } from './Home.styles';
+import Container from './Home.styled';
 
 const Home = ({ children }) => (
 	<Container>

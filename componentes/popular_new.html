@@ -1,19 +1,24 @@
 <style>
-  popular {
+  h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+#Popular, #Cinza {
+	width: 190px;
+	border-radius: 25px 25px 0px 0px;
+}
+
+#Popular {
 	height: 240px;
-	width: 190px;
 	background: rgba(64, 75, 99, 0.1);
-	border-radius: 25px 25px 0px 0px;
 }
 
-cinza {
+#Cinza {
 	height: 149px;
-	width: 190px;
 	background: #ACB1C0;
-	border-radius: 25px 25px 0px 0px;
 }
 
-quadro {
+#Quadro {
 	position: relative;
 	width: 190px;
 	height: 91px;
@@ -23,21 +28,20 @@ quadro {
 	padding: 14px 0px 0px 15px;
 }
 
-titulo, subtitulo {
+#Titulo, #SubTitulo {
 	position: absolute;
 	font-family: SF Pro Display;
 	letter-spacing: 0.000365625px;
 }
 
-titulo {
+#Titulo {
 	top: 14px;
-	font-weight: bold;
 	font-size: 17px;
 	line-height: 20px;
 	color: #404B63;
 }
 
-subtitulo {
+#SubTitulo {
 	bottom: 14px;
 	font-size: 13px;
 	line-height: 16px;
@@ -45,10 +49,10 @@ subtitulo {
 }
 </style>
 
-<popular>
-  <cinza></cinza>
-  <quadro>
-    <titulo>Design basic for beginner</titulo>
-    <subtitulo>17 lessons</subtitulo>
-  </quadro>
-</popular>
+<div id="Popular">
+  <div id="Cinza"></div>
+  <div id="Quadro">
+    <h1 id="Titulo">Design basic for beginner</h1>
+    <p id="SubTitulo">17 lessons</p>
+  </div>
+</div>

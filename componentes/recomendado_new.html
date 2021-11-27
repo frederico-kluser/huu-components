@@ -1,5 +1,9 @@
 <style>
-  recomendado {
+  h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+#Recomendado {
 	position: absolute;
 	height: 160px;
 	width: 120px;
@@ -9,43 +13,40 @@
 	box-sizing: border-box;
 }
 
-icone {
+#Icone {
 	width: 32px;
 	height: 41px;
 	position: absolute;
 	background: #FFFFFF;
 }
 
-titulo, valor, subtitulo {
+#Titulo, #Valor, #Subtitulo {
 	position: absolute;
   font-family: SF Pro Display;
 	color: #FFFFFF;
 	letter-spacing: 0.00039375px;
 }
 
-titulo {
+#Titulo {
 	top: 72px;
 	font-size: 14px;
-	line-height: 17px;
 }
 
-valor {
+#Valor {
 	top: 101px;
 	font-weight: bold;
 	font-size: 20px;
-	line-height: 24px;
 }
 
-subtitulo {
+#Subtitulo {
 	bottom: 17px;
 	font-size: 14px;
-	line-height: 17px;
 }
 </style>
 
-<recomendado>
-  <icone></icone>
-  <titulo>Yelp</titulo>
-  <valor>$332.00</valor>
-  <subtitulo>/mo</subtitulo>
-</recomendado>
+<div id="Recomendado">
+  <div id="Icone"></div>
+  <h1 id="Titulo">Yelp</h1>
+  <p id="Valor">$332.00</p>
+  <p id="Subtitulo">/mo</p>
+</div>

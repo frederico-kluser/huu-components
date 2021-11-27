@@ -1,9 +1,13 @@
 <style>
-produto, icone, titulo, valor {
+  h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+#Produto, #Icone, #Titulo, #Valor {
 	position: absolute;
 }
 
-produto {
+#Produto {
 	height: 330px;
 	width: 220px;
 	border-radius: 25px;
@@ -12,36 +16,33 @@ produto {
 	padding: 24px 0px 0px 20px;
 }
 
-icone {
+#Icone {
 	width: 21px;
 	height: 19px;
 	right: 9px;
 	background: #FFFFFF;
 }
 
-titulo, valor {
+#Titulo, #Valor {
 	font-family: SF Pro Display;
 	font-weight: bold;
 	letter-spacing: 1.28px;
+	color: #FFFFFF;
 }
 
-titulo {
+#Titulo {
 	top: 230px;
 	font-size: 16px;
-	letter-spacing: 1.28px;
-	color: #FFFFFF;
 }
 
-valor {
+#Valor {
 	top: 278px;
 	font-size: 14px;
-	line-height: 17px;
-	color: #FFFFFF;
 }
 </style>
 
-<produto>
-  <icone></icone>
-  <titulo>PERGEL TRIPOD FLPOOR LAMP</titulo>
-  <valor>$ 224</valor>
-</produto>
+<div id="Produto">
+  <div id="Icone"></div>
+  <h1 id="Titulo">PERGEL TRIPOD FLPOOR LAMP</h1>
+  <p id="Valor">$ 224</p>
+</div>

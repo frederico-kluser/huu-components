@@ -1,0 +1,221 @@
+<style>
+  #Home {
+	height: 100vh;
+	left: 0;
+	position: relative;
+	top: 0;
+	width: 100vw;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+#Titulo, #Especificacao, #Texto, #Seta, #Blocos, #Bloco, #Bloco2, #TituloBloco , #BlocoDeGrafico, #Horarios {
+	position: absolute;
+}
+
+#Grafico1, #Grafico2, #Grafico3, #Grafico4, #Grafico5, #Grafico6 {
+	width: 45px;
+	left: 30px;
+	background: #FFFFFF;
+	mix-blend-mode: normal;
+	border-radius: 8px 8px 0px 0px;
+	overflow: hidden;
+}
+
+#Titulo, #Texto, #TituloBloco, #Valor {
+	font-family: SF Pro Display;
+	color: #FFFFFF;
+	letter-spacing: 0.00050625px;
+}
+
+#Meta {
+	height: 401px;
+	width: 375px;
+	background: #5856D6;
+	padding-left: 30px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+
+#Titulo {
+	left: 30px;
+	top: 38px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#Especificacao {
+	height: 30px;
+	width: 68px;
+	top: 36px;
+	right: 30px;
+	background: #45439F;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+
+#Texto {
+	top: 7px;
+	left: 12px;
+	font-weight: 500;
+	font-size: 13px;
+	text-align: center;
+}
+
+#Seta {
+	left: 50px;
+	width: 1px;
+	height: 1px;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 6px solid #FFFFFF;
+	top: 12px;
+}
+
+#Blocos {
+	height: 64px;
+	width: 315px;
+	top: 99px;
+	box-sizing: border-box;
+	border-radius: 11px;
+}
+
+#Bloco, #Bloco2 {
+	height: 64px;
+	width: 145px;
+	border-radius: 11px;
+	border: 1px solid rgba(255, 255, 255, 0.486779);
+}
+
+#TituloBloco {
+	top: 11px;
+	left: 13px;
+	font-weight: bold;
+	font-size: 13px;
+	opacity: 0.67;
+}
+
+#Valor, #Medidor {
+	font-weight: bold;
+	display: inline-block;
+}
+
+#Valor {
+	font-size: 18px;
+	min-width: 20px;
+	max-width: 100px;
+	margin-left: 13px;
+	margin-top: 31px;
+	position: relative;
+}
+
+#Medidor {
+	top: 35px;
+	margin-left: 3px;
+	font-size: 13px;
+	color: #FF4D4D;
+}
+
+#Bloco2 {
+	right: 0px;
+	float: right;
+}
+
+#BlocoDeGrafico {
+	top: 164px;
+	display: grid;
+	grid-template-columns: repeat(6, 45px);
+	grid-gap: 20px;
+	align-items: end;
+	width: 100%;
+	height: 158px;
+}
+
+#Grafico1 {
+	height: 90px;
+	opacity: 0.25;
+}
+
+#Grafico2 {
+	height: 57px;
+	opacity: 0.42;
+}
+
+#Grafico3 {
+	height: 113px;
+}
+
+#Grafico4 {
+	height: 75px;
+	opacity: 0.8;
+}
+
+#Grafico5 {
+	height: 38px;
+	opacity: 0.42;
+}
+
+#Grafico6 {
+	height: 64px;
+	opacity: 0.25;
+}
+
+#Horarios {
+	display: grid;
+	grid-template-columns: repeat(6, 32px);
+	grid-gap: 33px;
+	height: 15px;
+	width: 100%;
+	left: 40px;
+	top: 340px;
+}
+
+#Hora {
+	font-family: SF Pro Display;
+	font-size: 13px;
+	letter-spacing: 0.000365625px;
+	color: #AFAFB9;
+}
+</style>
+
+<div id="Meta">
+  <h1 id="Titulo">Your Goal</h1>
+  <div id="Especificacao">
+    <p id="Texto">Today</p>
+    <div id="Seta"></div>
+  </div>
+  <div id="Blocos">
+    <div id="Bloco">
+      <h1 id="TituloBloco">BODY FAT</h1>
+      <p id="Valor">15%</p>
+      <p id="Medidor">-2</p>
+    </div>
+    <div id="Bloco2">
+      <h1 id="TituloBloco">MUSCLE</h1>
+      <p id="Valor">47,4kg</p>
+      <p id="Medidor">-2</p>
+    </div>
+  </div>
+  <div id="BlocoDeGrafico">
+    <div id="Grafico1"></div>
+    <div id="Grafico2"></div>
+    <div id="Grafico3"></div>
+    <div id="Grafico4"></div>
+    <div id="Grafico5"></div>
+    <div id="Grafico6"></div>
+  </div>
+  <div id="Horarios">
+    <p id="Hora">8am</p>
+    <p id="Hora">10am</p>
+    <p id="Hora">12am</p>
+    <p id="Hora">2pm</p>
+    <p id="Hora">4pm</p>
+    <p id="Hora">6pm</p>
+  </div>
+</div>

@@ -1,5 +1,9 @@
 <style>
-balance {
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+#Balance {
 	height: 190px;
 	width: 315px;
 	position: absolute;
@@ -10,7 +14,7 @@ balance {
 	padding-top: 24px;
 }
 
-titulo, subtitulo {
+#Titulo {
 	position: absolute;
 	height: 17px;
 	font-family: SF Pro Display;
@@ -22,7 +26,7 @@ titulo, subtitulo {
 	color: #FFFFFF;
 }
 
-valor, valor1, valor2 {
+#ValorTotal, #Valor {
 	font-family: SF Pro Display;
 	font-style: normal;
 	font-weight: bold;
@@ -30,31 +34,31 @@ valor, valor1, valor2 {
 	color: #FFFFFF;
 }
 
-valor {
-	margin-top: 25px;
-	font-size: 25px;
-	line-height: 30px;
-	height: 30px;
-}
-
-bloco, bloco2 {
-	position: absolute;
-	bottom: 30px;
-	top: 109px;
-}
-
-bloco2 {
-	left: 188px;
-}
-
-valor1, valor2 {
+#Valor {
 	margin-top: 25px;
 	height: 24px;
 	font-size: 20px;
 	line-height: 24px;
 }
 
-blocoporcentagem {
+#ValorTotal {
+	margin-top: 25px;
+	font-size: 25px;
+	line-height: 30px;
+	height: 30px;
+}
+
+#Bloco, #Bloco2 {
+	position: absolute;
+	bottom: 30px;
+	top: 109px;
+}
+
+#Bloco2 {
+	left: 188px;
+}
+
+#BlocoPorcentagem {
 	height: 20px;
 	width: 47px;
 	left: 52px;
@@ -63,7 +67,7 @@ blocoporcentagem {
 	background: #FFFFFF;
 }
 
-texto {
+#Porcentagem {
 	left: 10px;
 	top: 3px;
 	position: absolute;
@@ -74,18 +78,18 @@ texto {
 }
 </style>
 
-<balance>
-	<titulo>Total Asset</titulo>
-	<valor>$25,508.40</valor>
-<bloco>
-	<subtitulo>Lastest</subtitulo>
-	<blocoporcentagem>
-		<texto>+12%</texto>
-	</blocoporcentagem>
-	<valor1>$24.80</valor1>
-</bloco>
-<bloco2>
-	<subtitulo>Accumulated</subtitulo>
-	<valor2>$424.80</valor2>
-</bloco2>
-</balance>
+<div id="Balance">
+  <h1 id="Titulo">Total Asset</h1>
+  <p id="ValorTotal">$25,508.40</p>
+  <div id="Bloco">
+    <h1 id="Titulo">Lastest</h1>
+    <div id="BlocoPorcentagem">
+      <p id="Porcentagem">+12%</p>
+    </div>
+    <div id="Valor">$24.80</div>
+  </div>
+  <div id="Bloco2"> 
+    <h1 id="Titulo">Accumulated</h1>
+    <div id="Valor">$424.80</div>
+  </div> 
+</div>
